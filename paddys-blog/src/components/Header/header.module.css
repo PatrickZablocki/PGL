@@ -1,0 +1,26 @@
+.header_container {
+    background-color: #222;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: 25px 25px 25px #222;
+}
+.nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav_item {
+    margin: 0 15px;
+}
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav_link:hover {
+    text-decoration: underline;
+}
